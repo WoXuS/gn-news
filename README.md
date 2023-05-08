@@ -1,33 +1,58 @@
-# gnNews - gnStudio React.js developer challenge
+# gnNews Application
 
-Witaj, jeżeli znalazłeś się w tym miejscu to najprawdopodobniej chcesz dołączyć do niesamowitego teamu tworzącego rozwiązania szyte na miarę i chcesz w końcu realizować projekty, które nie będą nudne, będą sprawiały Ci frajdę i będą napawały Cię dumą kiedy tylko o nich pomyślisz.
+[![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)
+[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-1.9.3-blue)](https://redux-toolkit.js.org/)
+[![react-i18next](https://img.shields.io/badge/react_i18next-12.2.0-blue)](https://react.i18next.com/)
+[![MUI](https://img.shields.io/badge/MUI-5.11.14-blue)](https://mui.com/)
+[![React Testing Library](https://img.shields.io/badge/RTL-13.4-blue)](https://testing-library.com/)
 
-Cóż, projekty są różne, więc może tak właśnie być, a może być zupełnie odwrotnie 😉 Możemy Ci jedynie zagwarantować, że nie będziesz się nudzić.
+A news application built using React 18, TypeScript 4, Redux Toolkit, and MUI, fetching news data from the [News API](https://newsapi.org/v2). The application features a header, side menu, main content, and footer, with an additional language-switching functionality created wtih i18n.
 
-## O zadaniu
+## Demo Link
 
-Abyśmy mogli bliżej poznać Twoje umiejętności techniczne, stopień zaangażowania oraz sposób myślenia, przygotowaliśmy dla Ciebie zadanie polegające na stworzeniu prostej aplikacji będącej "agregatorem newsów" szumnie nazwanej przez nas roboczo **gnNews**.
+Access the app at https://gnnews.wozniakkamil.com
 
-To na czym nam zależy to przede wszystkim czytelny kod, działająca aplikacja i UI, który nie wygląda jak konar ciosany tępym scyzorykiem (hint: pamiętaj o RWD, ale ciii, nie mów nikomu, że Ci podpowiedziałem 😉)
+## Table of Contents
 
-## Następne kroki
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
 
-- wykonaj forka tego repozytorium jako prywatne repo
-- postępuj z instrukcjami zawartymi w [opis-zadania.md](./opis-zadania.md)
-- rozwiąż zadanie najlepiej jak potrafisz
-- dodaj użytkownika [gn-studio-pl](https://github.com/gn-studio-pl) do repozytorium
+## Features
 
-## Uwagi
+- View news articles in a list or grid layout.
+- Filter news by country.
+- Display news details in a popup.
+- Change the application language (Polish and English are supported).
+- Footer with the current time and the amount of articles on the page.
+- Fully responsive design.
 
-- aplikację wykonaj w oparciu o React.js, wykorzystanie TypeScript'u bedzie mile widziane i dodatkowo punktowane
-- wykorzystaj nastepujace biblioteki: Redux toolkit, react-test-lib. Może odbierzesz to jako wychodzenie z armatą na muchy ale korzystamy z nich w naszych projektach i chcemy wiedziec czy czujesz się w nich dobrze
-- nie musisz tworzyć całego UI samemu, możesz skorzystać z dowolnej biblioteki UI
-- nie ma tutaj limitu czasu (poza wyznaczonym deadlinem), ale zalecamy, abyś nie spędzał nad tym zadaniem więcej jak 12 godzin
-- staraj się napisać swój kod najlepiej jak potrafisz
-- otestowanie przynajmniej części aplikacji mile widziane 😉
+## Screenshots
 
-## Pytania?
+![gnNews Application Homepage View in Polish](./assets/gnnews-screenshot-1.jpeg)
 
-Jeżeli masz jakiekolwiek pytania co do wykonywanego zadania, bądź coś nie jest dla Ciebie jasne, albo masz trudności na którymś etapie, nie krępuj się - dzwoń, pisz - wyjaśnimy (chyba 😛)
+![gnNews Application Tile View](./assets/gnnews-screenshot-2.jpg)
 
-## Powodzenia!
+![gnNews Application Popup View](./assets/gnnews-screenshot-3.jpg)
+
+## Installation
+
+To get started, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/WoXuS/gn-news
+cd gnnews-app
+npm install
+```
+
+## Usage
+
+To start the development server, run:
+
+```bash
+npm start
+```
+
+Open http://localhost:3000 to view the registration module in your browser.
