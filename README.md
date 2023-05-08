@@ -11,7 +11,7 @@ A news application built using React 18, TypeScript 4, Redux Toolkit, and MUI, f
 
 ## Demo Link
 
-Access the app at https://gnnews.wozniakkamil.com
+Access the app at https://gn-news.wozniakkamil.com
 
 ## Table of Contents
 
@@ -55,4 +55,4 @@ To start the development server, run:
 npm start
 ```
 
-Open http://localhost:3000 to view the registration module in your browser.
+Open http://localhost:3000 to view the news application in your browser.
