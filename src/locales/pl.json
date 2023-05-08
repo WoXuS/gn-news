@@ -1,0 +1,17 @@
+{
+  "language": "Język",
+  "polish": "Polski",
+  "english": "Angielski",
+  "mainHeader": "Artykuły z",
+  "popupTitle": "Najtrudniejsze i najprzyjemniejsze części",
+  "popupContent1": "Najtrudniejszą częścią było utrzymanie spójności stylizacji w kodzie. Złapałem się na tym, że użyłem zbyt wiele razy zarówno właściwości sx, jak i klas CSS w tym samym komponencie. Rozumiem, że to nie jest najlepsza praktyka, ale miałem ograniczony czas, ponieważ robiłem to zadanie pomiędzy moimi regularnymi pracami. W sytuacji zawodowej zdecydowanie użyłbym tylko jednego rodzaju stylizacji. Kolejną zaskakująco trudną częścią było sprawienie, że kafelki z wiadomościami miały tę samą wysokość. Działało to, gdy nie było przycisku otaczającego kafelek, ale gdy tamten przycisk dodałem, przestało działać. Skorzystałem z dodania właściwości onClick do komponentu Paper. Ponadto pisanie testów automatycznych było stosunkowo czasochłonne i jest to rzecz, którą będę bardziej ćwiczył w pierwszej kolejności.",
+  "popupContent2": "Najprzyjemniejszą częścią było zdecydowanie zobaczenie, jak wszystko się łączy - byłem naprawdę szczęśliwy, gdy udało mi się pobrać listę krajów wraz z flagami z zewnętrznego API i wyświetlić je w bocznym panelu.Stylizacja kafelków z obrazkami była również bardzo satysfakcjonująca. Bardzo podoba mi się także ikonowy przycisk w nagłówku.",
+  "closeButton": "Zamknij",
+  "readArticleButton": "Czytaj dalej",
+  "source": "Źródło",
+  "author": "Autor",
+  "numArticles": "Liczba artykułów powyżej",
+  "home1": "Czytaj wiadomości",
+  "home2": "z zaufanego źródła",
+  "home3": "Aby wyświetlić wiadomości z danego kraju otwórz menu naciskając na ikonke po lewej stronie od loga, a następnie wybierz państwo."
+}

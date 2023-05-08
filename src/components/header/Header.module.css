@@ -1,0 +1,31 @@
+.navLogo {
+  width: 20%;
+  margin: 20px 0;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.navLink:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .navLogo {
+    margin: 0;
+  }
+}
+@media (max-width: 600px) {
+  .navLogo {
+    width: 40%;
+  }
+}
+@media (max-width: 400px) {
+  .navLogo {
+    width: 75%;
+  }
+}

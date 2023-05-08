@@ -1,0 +1,47 @@
+.tiles {
+  flex-direction: column;
+}
+
+.list {
+  max-width: 1200px;
+}
+
+.card {
+  margin: 8px;
+  display: flex;
+  transition: all 0.5s ease;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  -moz-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  -webkit-user-drag: none;
+}
+.countryFlag {
+  margin-right: 25px;
+  margin-left: 25px;
+  object-fit: cover;
+  width: 60px;
+  height: 40px;
+}
+@media (max-width: 900px) {
+  .countryFlag {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 50px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "language": "Language",
+  "polish": "Polish",
+  "english": "English",
+  "mainHeader": "Top articles from",
+  "popupTitle": "The Hardest and the most fun parts",
+  "popupContent1": "The hardest part was keeping the styling in the code coherent. I have caught myself using the sx prop and CSS classes in the same component too many times. I understand that this isn't the best practice but I was on borrowed time since I was doing this in between my regular jobs. In a professional scenario I would definitely only use one type of styling. Another surprisingly difficult part was making the news tiles be the same height. It was working while there was no button surrounding the tile but the moment I put the button there it stops working. I have resorted to adding an onClick to the Paper component. Another problematic thing was the testing - it was one of my first times writing automatic tests and it has proven to be more time consuming than anticipated. I definitely have to practice some more in that regard.",
+  "popupContent2": "The most fun part was definitely seeing everything come together - I was really happy when I managed to pull a country list along with flags from an external API and display them in the SideBar. Styling the news tiles with images was also very satisfying. I really like the icon buttons in the header as well.",
+  "closeButton": "Close",
+  "readArticleButton": "Read Full Article",
+  "source": "Source",
+  "author": "Author",
+  "numArticles": "Number of articles above",
+  "home1": "Get your news",
+  "home2": "from a trusted source",
+  "home3": "To display news from a certain country, start by clicking on the menu icon on the left side of the logo and then choose a country."
+}

@@ -1,0 +1,12 @@
+.countryContainer {
+  display: flex;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.countryFlag {
+  margin-right: 15px;
+  object-fit: cover;
+  width: 30px;
+  height: 20px;
+}

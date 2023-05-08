@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 16px;
+}
+.footerContainer {
+  width: 100%;
+  background-color: #3a424d;
+  margin-top: auto;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .numArticles {
+    margin-bottom: 30px !important;
+  }
+}
