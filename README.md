@@ -1,4 +1,4 @@
-# gnNews Application
+# gnNews - a gnStudio React Coding Challenge
 
 [![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue)](https://www.typescriptlang.org/)
@@ -31,7 +31,7 @@ Access the app at https://gnnews.wozniakkamil.com
 
 ## Screenshots
 
-![gnNews Application Homepage View in Polish](./assets/gnnews-screenshot-1.jpeg)
+![gnNews Application Homepage View in Polish](./assets/gnnews-screenshot-1.jpg)
 
 ![gnNews Application Tile View](./assets/gnnews-screenshot-2.jpg)
 
@@ -43,7 +43,7 @@ To get started, clone the repository and install the dependencies:
 
 ```bash
 git clone https://github.com/WoXuS/gn-news
-cd gnnews-app
+cd gn-news
 npm install
 ```
 
