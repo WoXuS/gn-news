@@ -13,5 +13,6 @@
   "numArticles": "Number of articles above",
   "home1": "Get your news",
   "home2": "from a trusted source",
-  "home3": "To display news from a certain country, start by clicking on the menu icon on the left side of the logo and then choose a country."
+  "home3": "To display news from a certain country, start by clicking on the menu icon on the left side of the logo and then choose a country.",
+  "error": "Unfortunately, the free plan of the https://newsapi.org/ doesn't allow for calls in production. Below are images of how the website looks on localhost."
 }

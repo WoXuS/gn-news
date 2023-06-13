@@ -30,6 +30,11 @@
   object-fit: cover;
   -webkit-user-drag: none;
 }
+
+.presentationImage {
+  margin: 1rem 0;
+}
+
 .countryFlag {
   margin-right: 25px;
   margin-left: 25px;

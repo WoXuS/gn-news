@@ -1,12 +1,14 @@
-import { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import { Grid, Typography, Skeleton, Container } from "@mui/material";
+import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
+import { Grid, Typography, Skeleton, Container } from '@mui/material';
 
-import { useAppSelector } from "../../redux/hooks";
+import { useAppSelector } from '../../redux/hooks';
 
-import { NewsItem, ViewTypes, transformedCountryData } from "../../types/types";
-import NewsCard from "../../components/news-card/NewsCard";
-import styles from "../../components/news-card/NewsCard.module.css";
+import { NewsItem, ViewTypes, transformedCountryData } from '../../types/types';
+import NewsCard from '../../components/news-card/NewsCard';
+import styles from '../../components/news-card/NewsCard.module.css';
+import Image1 from '../../assets/gnnews-screenshot-2.jpg';
+import Image2 from '../../assets/gnnews-screenshot-3.jpg';
 
 type SetNumber = React.Dispatch<React.SetStateAction<number | undefined>>;
 
@@ -29,7 +31,7 @@ const NewsPageContent = ({ country, setNumArticles }: NewsPageContentProps) => {
           `https://newsapi.org/v2/top-headlines?country=${country.countryCode}&apiKey=34299859420e47e8a7eb34ecaaf5f2ce`
         );
         const data = await response.json();
-        if (data.status === "error") {
+        if (data.status === 'error') {
           setError(data.message);
           setLoading(false);
           return null;
@@ -42,7 +44,7 @@ const NewsPageContent = ({ country, setNumArticles }: NewsPageContentProps) => {
         }
       } catch (error) {
         setLoading(false);
-        setError("Something went wrong. Please try again later.");
+        setError('Something went wrong. Please try again later.');
         return null;
       }
     }
@@ -51,24 +53,45 @@ const NewsPageContent = ({ country, setNumArticles }: NewsPageContentProps) => {
 
   return (
     <Container sx={{ flex: 1, marginBottom: 5 }}>
-      {error && (
-        <Typography color="error" align="center">
-          Error: {error}
-        </Typography>
-      )}
+      {error &&
+        (error ===
+        'Requests from the browser are not allowed on the Developer plan, except from localhost.' ? (
+          <>
+            <Typography color='error' align='center'>
+              Error: {error}
+            </Typography>
+            <Typography color='error' align='center' variant='h5' marginY={2}>
+              {t('error')}
+            </Typography>
+            <img
+              src={Image1}
+              alt='gnNews presentation 1'
+              className={styles.presentationImage}
+            />
+            <img
+              src={Image2}
+              alt='gnNews presentation 2'
+              className={styles.presentationImage}
+            />
+          </>
+        ) : (
+          <Typography color='error' align='center'>
+            Error: {error}
+          </Typography>
+        ))}
       {news && (
         <>
           <Typography
-            variant="h4"
+            variant='h4'
             sx={{
-              color: "#3a424d",
+              color: '#3a424d',
               marginY: 5,
-              alignItems: "center",
-              display: "flex",
-              justifyContent: "center",
+              alignItems: 'center',
+              display: 'flex',
+              justifyContent: 'center',
             }}
           >
-            {t("mainHeader")}
+            {t('mainHeader')}
             <img
               src={country.flag.svg}
               alt={country.flag.alt}
@@ -87,8 +110,8 @@ const NewsPageContent = ({ country, setNumArticles }: NewsPageContentProps) => {
                   md={viewType === ViewTypes.tiles ? 4 : 12}
                   lg={viewType === ViewTypes.tiles ? 4 : 12}
                   sx={{
-                    display: "flex",
-                    justifyContent: "center",
+                    display: 'flex',
+                    justifyContent: 'center',
                     padding: 1,
                   }}
                 >
@@ -96,10 +119,10 @@ const NewsPageContent = ({ country, setNumArticles }: NewsPageContentProps) => {
                     <NewsCard news={item} viewType={viewType} />
                   ) : (
                     <Skeleton
-                      variant="rectangular"
-                      width="100%"
-                      height={viewType === ViewTypes.tiles ? "500px" : "150px"}
-                      sx={{ bgcolor: "#cfcfcf" }}
+                      variant='rectangular'
+                      width='100%'
+                      height={viewType === ViewTypes.tiles ? '500px' : '150px'}
+                      sx={{ bgcolor: '#cfcfcf' }}
                     />
                   )}
                 </Grid>

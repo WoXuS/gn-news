@@ -31,11 +31,11 @@ Access the app at https://gn-news.wozniakkamil.com
 
 ## Screenshots
 
-![gnNews Application Homepage View in Polish](./assets/gnnews-screenshot-1.jpg)
+![gnNews Application Homepage View in Polish](./src/assets/gnnews-screenshot-1.jpg)
 
-![gnNews Application Tile View](./assets/gnnews-screenshot-2.jpg)
+![gnNews Application Tile View](./src/assets/gnnews-screenshot-2.jpg)
 
-![gnNews Application Popup View](./assets/gnnews-screenshot-3.jpg)
+![gnNews Application Popup View](./src/assets/gnnews-screenshot-3.jpg)
 
 ## Installation
 

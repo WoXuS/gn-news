@@ -13,5 +13,6 @@
   "numArticles": "Liczba artykułów powyżej",
   "home1": "Czytaj wiadomości",
   "home2": "z zaufanego źródła",
-  "home3": "Aby wyświetlić wiadomości z danego kraju otwórz menu naciskając na ikonke po lewej stronie od loga, a następnie wybierz państwo."
+  "home3": "Aby wyświetlić wiadomości z danego kraju otwórz menu naciskając na ikonke po lewej stronie od loga, a następnie wybierz państwo.",
+  "error": "Niestety, darmowy plan https://newsapi.org/ nie pozwala na wywołania w środowisku produkcyjnym. Poniżej znajdują się obrazy przedstawiające wygląd strony internetowej na środowisku lokalnym."
 }
